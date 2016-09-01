@@ -1,0 +1,10 @@
+instructions
+
+-- download the data from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+-- download matconvnet from http://www.robots.ox.ac.uk/~vgg/software/vgg_face/src/vgg_face_matconvnet.tar.gz
+-- replace vgg_face_matconvnet\+lib\+face_feats\@convNet\simpleNN.m with the file with the same name
+-- put compute_embeddings.m and myFaceCrop.m in vgg_face_matconvnet\
+-- change line 3 of compute_embeddings.m to point at the location of the images
+-- change line 14
+-- run compute_embeddings.m (takes a long time...)
+
